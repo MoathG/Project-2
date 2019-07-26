@@ -1,0 +1,100 @@
+.allPage {
+  background-color: #aed886;
+  font-family: "Bubblegum Sans", cursive;
+}
+#listAdd {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  /* color: #495057; */
+}
+#listAdd2 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+p{
+    text-align: center;
+    font-size: 18px;
+}
+#listAdd3 {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.colList {
+  width: 360px;
+  margin: 100px auto;
+}
+i.fas.fa-hand-point-right.move,
+i.fa.fa-trash.delete {
+  line-height: 60px;
+}
+
+#addBtn {
+  font-family: inherit;
+  font-size: 18px;
+  background-color: #ffecb8;
+  width: 100%;
+  padding: 13px 13px 13px 20px;
+  box-sizing: border-box;
+  border: none;
+}
+#addBtn:focus {
+  outline: none;
+}
+i {
+  height: 60px;
+  text-align: center;
+  width: 60px;
+  float: right;
+  padding: 0 0 20px;
+}
+.newLi {
+  background-color: #90d2d8;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 0 0 20px;
+  color: #495057;
+  font-size: 20px;
+}
+.newLi:nth-child(2n) {
+  background-color: #ffecb8;
+}
+.text-center h1 {
+  font-size: 100px;
+  /* color: #FAB1A0; */
+  color: #4aa6ff;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background: #b7ded2;
+  color: #495057;
+  font-size: 18px;
+}
+
+.copyRight {
+    float: left;
+    padding: 7px;
+    font-size: 14px;
+}
+
+/* color: #ffecb8 to-do and in progress and done background 
+
+#b7ded2
+
+#f6a6b2
+
+#f7c297
+
+#ffecb8
+
+#90d2d8
+
+// alwaaaaaan g999999aaaaaaa :)
+*/
