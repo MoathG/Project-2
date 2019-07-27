@@ -11,6 +11,11 @@ $("document").ready(function () {
         $(this).parent().remove();
     });
 
+    // second delete
+    $("#listAdd2").on('click', '.delete', function () {
+        $(this).parent().remove();
+    });
+
     $('#listAdd').on('click', '.move', function(){
         $(this).parent('li').appendTo('#listAdd2');
     })
@@ -19,9 +24,14 @@ $("document").ready(function () {
     $('#listAdd2').on('click', '.move', function(){
         $(this).parent('li').appendTo('#listAdd3');
     })
+
     $("#listAdd3").on('click', '.delete', function () {
         $(this).parent().remove();
     });
+
+    $('#listAdd').sortable();
+
+  
 });
 
 // Draggable

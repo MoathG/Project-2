@@ -16,6 +16,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
     integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <!--sortable using this labiral-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+  <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.18/jquery-ui.min.js" type="text/javascript"></script>
 
 </head>
 
@@ -40,7 +43,7 @@
             <p>To Do</p>
           </div>
           <div class="card-body text-success" id="cardAdd">
-            <input type="text" class="input-group-text" placeholder="Add New" id="addBtn">
+            <input type="text" class="input-group-text" placeholder="Add New" id="addBtn" data-toggle="tooltip" data-placement="top" title="You should write what you do!"    >
             <ul id="listAdd">
               
             </ul>

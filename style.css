@@ -83,6 +83,9 @@ i {
     padding: 7px;
     font-size: 14px;
 }
+#listAdd3 li .move{
+  display: none
+}
 
 /* color: #ffecb8 to-do and in progress and done background 
 
