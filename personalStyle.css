@@ -84,6 +84,10 @@
     padding: 7px;
     font-size: 14px;
 }
+
+#listAdd3 li .move{
+  display: none
+}
   
   
   
